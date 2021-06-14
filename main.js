@@ -1,3 +1,3 @@
-function changecolor(){
-    document.getElementById("rk").style.color="red";
+function setdate(){
+    document.getElementById('date').innerHTML = new Date().toDateString();
 }
