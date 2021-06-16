@@ -1,18 +1,23 @@
-body {
-    text-align: center;
-    background-color: aqua;
+body{
+  text-align: center;
+  background:linear-gradient(
+  #B71C1C 0%, #1DE9B6 100%);
+  background-repeat:no-repeat;
+}
+
+h1{
+  text-shadow:2px 2px #304FFE;
+  font-size:20px;
+}
+#bio{
+  padding:20px;
+  font-size:18px;
+  text-align:center;
+}
+
+img
+{
+  border-radius:50%;
+  width:500px;
+}
     
-}
-div {
-    margin-top: 15px;
-    }
-.image-section {
-    display:flex;
-    justify-content: center;
-    
-}
-.section-style{
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: aliceblue;
-}
