@@ -57,7 +57,7 @@ h2{
     
 }
 .line{
-    background-color: black;
+    background-color: blue;
     height: 6px;
     width: 70px;
     margin: 8px auto;
@@ -90,7 +90,7 @@ p{
     float: left;
     color: aqua;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     padding-right: 9px;
     padding-left: 9px;
     font-family: cursive;
@@ -106,5 +106,5 @@ a{
     text-decoration: none;
 }
 .Article:hover{
-    color: red;
+    color: azure;
 }
