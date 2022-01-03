@@ -1,132 +1,90 @@
 body{
-	background-image: url("Bg.jpg");
-	background-repeat: no-repeat;
+	font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-	position:sticky;
-	top: 0;
-   	width: 100%;
-  }
-  
-  .topnav a {
-	float: left;
-	color: #f2f2f2;
-	font-family: cursive;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav a:hover {
-	background-color: #990404;
-	color: #333;
-  }
-
-  .topnav-right {
-	float: right;
-  }
-
-  .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  .img_div{
-	float: left;
-	width: 50%;
-	padding: 5px;
-  }
-  .menu_div{
-	float: right;
-	width: 50%;
-	padding: 160px;
-	color: honeydew;
-	font-size: 25px;
-	font-family: cursive;
-  }
-  #menu_list{
-	background-color:#f5c71a;
-	color:black; 
-	width: 200px;
-	border: none;
-  }
-
-  .newRow::after {
-	content: "";
-	clear: both;
-	display: table;
+/* Setting the font and padding of all of the headings */
+h3{
+	font-family: 'Lato', cursive;
+	font-size: 2.5rem;
+	padding-bottom:0;
 }
-
-  .block1{
-	float: left;
-	width: 20%;
-	padding: 5px;
-  }
-  .block2{
-	float: left;
-	width: 80%;
-	padding: 5px;
-	color: honeydew;
-	font-size: 25px;
-	font-family: cursive;
-  }
-
-  #add_toppings{
-	/* padding-left:30px; */
-	width:200px;
-	height:180px;
-	border: none;
-	background-color:#e2062c;
-	color:black;
-	font-size: 25px;
-	font-family: cursive;
-  }
-
-  #add_item {
-	font-family: cursive;
-	font-size: 15px;
-	line-height: 20px;
-	width: 80%;
-	height: 50px;
-	color: rgb(10, 10, 10);
-    background: none;
-    border: none;
-    border-bottom: 1px solid rgb(223, 205, 205);
-    outline: none;
- }
-
-[placeholder]:focus::-webkit-input-placeholder {
-    transition: text-indent 0.4s 0.4s ease; 
-    text-indent: -100%;
-	opacity: 1;
-	color: blue;
- }
-
-ol.menulist>li
-{
-	padding-bottom:20px;
+/* Setting the font family of the button */
+button{
+	font-family: 'Montserrat', sans-serif;
 }
-
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
- }
- 
- div.card {
-    flex: 0 0 30%;
-	box-sizing: border-box;
-	color:black;
-	margin: 0.5rem .18em;
-	background-color: antiquewhite;
-	align-items: center;
-	font-size: medium;
+/* Setting the margin of the input */
+input {
+	margin: 10px;
 }
-.card img{
-	width:100px;
-	height: 30px;
+/* Styling the paragraphs */
+p{
+	padding-top:20px;
+}
+/* Styling all the divs */
+.top-div{
+	background-color: #EFFFFD;
+	padding:150px;
+	padding-bottom:100px;
+	color:#66BFBF;
+}
+.bottom-div{
+	padding:150px;
+	background-color:#EFCEFA;
+	color:rgb(97, 41, 226);
+}
+/* Styling all the inputs */
+#s1{
+	color:rgb(97, 41, 226);
+	border-color:rgb(97, 41, 226);
+	border-style:none;
+	padding:7px;
+}
+#name1{
+	color:#66BFBF;
+	border-style:none;
+	padding:7px;
+}
+/* Styling all the buttons */
+#show{
+	margin-bottom: 10px;
+}
+#submit_button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sort_button {
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#srch{
+	background-color:rgb(255, 1, 56);
+	color:white;
+}
+#srch:hover{
+	background-color:rgb(15, 40, 184);
+	color:white;
+}
+/* Styling all the placeholders */
+#name1::placeholder{
+	color:#b8e4df;
+}
+#name1:-ms-input-placeholder {
+	color:#b8e4df;
+   ;
+}
+#name1::-ms-input-placeholder {
+	color:#b8e4df;
+   ;
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::placeholder{
+	color:rgb(167, 143, 223);
+}
+#s1:-ms-input-placeholder {
+	color:rgb(167, 143, 223);
+}
+#s1::-ms-input-placeholder {
+	color:rgb(167, 143, 223);
 }
